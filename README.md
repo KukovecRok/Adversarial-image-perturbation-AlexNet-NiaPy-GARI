@@ -4,10 +4,11 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 ## Requirements
 * Python 3.6+
 * Pip
-* NiaPy 2.0.0rc12
+* NiaPy 2.0.0rc12 (pip install NiaPy==2.0.0rc12 ; included in AlexNetDiplomska.ipynb) 
 
 ### Warning
 Code is in early stage, some paths etc. are still hardcoded. Images used are on my GoogleDrive, therefore there is a problem with accessing them. 
 
 ### Current plan
 Battling with a bug, that does not display image from array, if array has been modified whatsoever.
+Currently working on only one picture ![Baseball](.github/bejzbol.JPEG)
