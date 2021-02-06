@@ -11,4 +11,5 @@ Code is in early stage, some paths etc. are still hardcoded. Images used are on 
 
 ### Current plan
 Battling with a bug, that does not display image from array, if array has been modified whatsoever.
-Currently working on only one picture ![Baseball](./bejzbol.JPEG?raw=true)
+Currently working on only one picture 
+<center> ![Baseball](./bejzbol.JPEG?raw=true) </center>
