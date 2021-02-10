@@ -8,10 +8,11 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 
 ### Warning
 Code is in early stage, some paths etc. are still hardcoded. Images used for CNN are on my GoogleDrive, therefore there can be a problem accessing them. 
-#### 2 versions
-Because of that, there are currently 2 versions of Jupyter Notebook. 
+#### 3 versions
+Because of that, there are currently 3 versions of Jupyter Notebook. 
 * "AlexNetDiplomskaColab.ipynb" that requires Colab, my gDrive etc.
-* "NiaPyDiplomskaLocal.ipynb" that runs 2 pictures and NiaPy locally
+* "NiaPyDiplomskaLocal.ipynb" that uses 2 pictures and NiaPy locally
+* "NiaPyDiplomska.ipynb" that uses 1 picture (tiger.jpg), NiaPy and CNN prediction in Google Colab. *Important! Download files!*
 
 ### Current plan
 * a) Evaluate the difference between original and recreated picture - something similiar to RMSE - average difference in pixel - bigger differences (errors) get bigger punishment
