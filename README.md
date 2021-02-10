@@ -17,9 +17,8 @@ Because of that, there are currently 2 versions of Jupyter Notebook.
 * a) Evaluate the difference between original and recreated picture - something similiar to RMSE - average difference in pixel - bigger differences (errors) get bigger punishment
 * ?) Should NiaPy change only targeted parts of the picture - used in CNN prediction? 
 ![CNN Layers - Visualization of the activation maps](https://miro.medium.com/max/785/1*mzmytBNCTO3CEKtpCVxIRA.png)
-
 * [DONE] Transforming "bejzbol.jpeg" to same shape as array "iskanje", running NiaPy over it and displaying newly created picture. 
-* [SOLVED] Using cv2. Found bug, that does not display image from array, if array has been modified whatsoever.
+* [SOLVED] Using cv2. Found a bug, that does not display image from numpy array, if array has been modified whatsoever.
 
 
 ![Baseball](./bejzbol.JPEG?raw=true)
