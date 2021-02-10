@@ -10,10 +10,10 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 Code is in early stage, some paths etc. are still hardcoded. Images used for CNN are on my GoogleDrive, therefore there can be a problem accessing them. 
 
 ### Current plan
-a) Evaluate the difference between original and recreated picture - something similiar to RMSE - average difference in pixel - bigger differences (errors) get bigger punishment
-?) Should NiaPy change only targeted parts of the picture - used in CNN prediction? 
-[DONE] Transforming "bejzbol.jpeg" to same shape as array "iskanje", running NiaPy over it and displaying newly created picture. 
-[SOLVED] Using cv2. Found bug, that does not display image from array, if array has been modified whatsoever.
+* a) Evaluate the difference between original and recreated picture - something similiar to RMSE - average difference in pixel - bigger differences (errors) get bigger punishment
+* ?) Should NiaPy change only targeted parts of the picture - used in CNN prediction? 
+* [DONE] Transforming "bejzbol.jpeg" to same shape as array "iskanje", running NiaPy over it and displaying newly created picture. 
+* [SOLVED] Using cv2. Found bug, that does not display image from array, if array has been modified whatsoever.
 
 
 ![Baseball](./bejzbol.JPEG?raw=true)
