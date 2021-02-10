@@ -11,7 +11,7 @@ Code is in early stage, some paths etc. are still hardcoded. Images used for CNN
 #### 2 versions
 Because of that, there are currently 2 versions of Jupyter Notebook. 
 * "AlexNetDiplomskaColab.ipynb" that requires Colab, my gDrive etc.
-* "AlexNetDiplomskaLocal.ipynb" that runs 2 pictures and NiaPy locally
+* "NiaPyDiplomskaLocal.ipynb" that runs 2 pictures and NiaPy locally
 
 ### Current plan
 * a) Evaluate the difference between original and recreated picture - something similiar to RMSE - average difference in pixel - bigger differences (errors) get bigger punishment
