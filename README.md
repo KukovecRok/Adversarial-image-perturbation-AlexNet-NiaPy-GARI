@@ -18,8 +18,9 @@ Code is in early stage, some paths etc. are still hardcoded. Images used for CNN
 * ?) Should NiaPy change whole or only targeted parts of the picture - used in CNN prediction? 
 ![CNN Layers - Visualization of the activation maps](https://miro.medium.com/max/785/1*mzmytBNCTO3CEKtpCVxIRA.png)
 
-![Baseball](./Images/bejzbol.JPEG?raw=true)
+
 ![Tiger](./Images/tiger.jpg?raw=true) 
 
-## Looking promising
-![BaseballMissed](./Images/zanimivost.jpg?raw=true) 
+## Looks promising
+Original: ![Baseball](./Images/bejzbol.JPEG?raw=true)
+After NiaPy: ![BaseballMissed](./Images/zanimivost.jpg?raw=true) 
