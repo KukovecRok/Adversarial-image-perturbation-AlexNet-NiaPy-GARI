@@ -24,3 +24,4 @@ Because of that, there are currently 3 versions of Jupyter Notebook.
 
 ![Baseball](./bejzbol.JPEG?raw=true)
 ![Tiger](./tiger.jpg?raw=true) 
+![BaseballMissed](./zanimivost.jpg?raw=true) 
