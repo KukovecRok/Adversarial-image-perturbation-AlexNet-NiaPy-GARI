@@ -3,25 +3,23 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 
 ## Requirements
 * Python 3.6+
+* Jupyter Notebook environment
 * Pip
-* NiaPy 2.0.0rc12 (pip install NiaPy==2.0.0rc12 ; included in AlexNetDiplomska.ipynb) 
+* NiaPy 2.0.0rc12
 
-### Warning
-Code is in early stage, some paths etc. are still hardcoded. Images used for CNN are on my GoogleDrive, therefore there can be a problem accessing them. 
 #### 3 versions
-Because of that, there are currently 3 versions of Jupyter Notebook. 
+Code is in early stage, some paths etc. are still hardcoded. Images used for CNN are on my GoogleDrive, therefore there can be a problem accessing them. Because of that, there are currently 3 versions of Jupyter Notebook:
+* "NiaPyDiplomskaLocal.ipynb" that uses 2 pictures and NiaPy locally - specified in [requirements.txt](requirements.txt)
 * "AlexNetDiplomskaColab.ipynb" that requires Colab, my gDrive etc.
-* "NiaPyDiplomskaLocal.ipynb" that uses 2 pictures and NiaPy locally
 * "NiaPyDiplomska.ipynb" that uses 1 picture (tiger.jpg), NiaPy and CNN prediction in Google Colab. *Important! Download files!*
 
 ### Current plan
 * a) Evaluate the difference between original and recreated picture - something similiar to RMSE - average difference in pixel - bigger differences (errors) get bigger punishment
-* ?) Should NiaPy change only targeted parts of the picture - used in CNN prediction? 
+* ?) Should NiaPy change whole or only targeted parts of the picture - used in CNN prediction? 
 ![CNN Layers - Visualization of the activation maps](https://miro.medium.com/max/785/1*mzmytBNCTO3CEKtpCVxIRA.png)
-* [DONE] Transforming "bejzbol.jpeg" to same shape as array "iskanje", running NiaPy over it and displaying newly created picture. 
-* [SOLVED] Using cv2. Found a bug, that does not display image from numpy array, if array has been modified whatsoever.
 
+![Baseball](./Images/bejzbol.JPEG?raw=true)
+![Tiger](./Images/tiger.jpg?raw=true) 
 
-![Baseball](./bejzbol.JPEG?raw=true)
-![Tiger](./tiger.jpg?raw=true) 
-![BaseballMissed](./zanimivost.jpg?raw=true) 
+## Looking promising
+![BaseballMissed](./Images/zanimivost.jpg?raw=true) 
