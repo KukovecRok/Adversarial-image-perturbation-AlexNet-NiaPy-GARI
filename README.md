@@ -1,5 +1,8 @@
-# Making AlexNet CNN inefficient using NiaPy's evolutionary algorithms
+# Making AlexNet CNN inaccurate using NiaPy's evolutionary algorithms
 Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correctly classified image(s) using NiaPy's evolutionary algorithms, trying to recreate it as similiar to original as possible, but only to the point, that AlexNet fails its prediction.
+
+## Learning phase
+**The algorithm recreates the whole original picture from scratch considering only the BenchMark function.** No compression or simplification of the image were used. I believe, this approach will lead us into the direction, where we can apply the procedure on **any image** of any size, that AlexNet recognizes in the first place. The future goal is to work on the AlexNet's native 224*224 resolution.
 
 ## Requirements
 * Python 3.6+
@@ -18,22 +21,23 @@ Code is in early stage, some paths etc. are still hardcoded. Images used for CNN
 
 ### Milestones
 * Added **PyGan** to create a **Proof Of Concept**, proving that the idea and BenchMark works
-* **Succesfully recreated** a few images, we can nicely see totally different pixels and almost **100% wrong prediction of AlexNet**
+* **Succesfully recreated** a few images. We can nicely see which pixels have been tampered with, to achieve almost **100% wrong prediction of AlexNet**
 * **Added Metrics** to compare and evaluate images after recreation
 
 
-![Baseball](./Images/bejzbol80-80.JPEG?raw=true) ![Strawberry](./Images/strawberries100-53.jpg?raw=true) ![Strawberry](./Images/nautlius80-60.JPEG?raw=true) 
+![Baseball](./Images/bejzbol80-80.JPEG?raw=true) ![Nautilus](./Images/nautilus80-60.JPEG?raw=true) ![Strawberry](./Images/strawberries100-53.jpg?raw=true) 
 
 ## Looks promising
-First No. represents border, at which to include AlexNet into BenchMark, forcing algorithm to create a picture not only similiar to the original, but also to the point **AlexNet completely fails** its prediction
+First No. represents the border, at which we, if AlexNet recognizes the actual motive of the picture, include it into the BenchMark. This forces evolutional algorithm to recreate a picture not only similiar to the original, but also in such way that **AlexNet completely fails** at its prediction
+### Examples
 * Recreated Baseball at 20k-32,5k: 
 
 ![BaseballRecreated](./Pygad%20Recreated/20000-32500Baseball-Bib.jpg?raw=true) 
 
+* Recreated Nautilus with updated/fixed BenchMark at 50k-52,5k: 
+
+![RecreatedNautilus](./Pygad%20Recreated/50000-52500Nautilus-BrainCoral.jpg?raw=true) 
+
 * Recreated Strawberry at 20k-20,5k: 
 
 ![RecreatedStrawberry](./Pygad%20Recreated/20000-20500Strawberry-Mitten.png?raw=true) 
-
-* Recreated Nautilus with updated BenchMark at 30k-30150: 
-
-![RecreatedNautilus](./Pygad%20Recreated/30000-30500Nautilus-BrainCoral.png?raw=true) 
