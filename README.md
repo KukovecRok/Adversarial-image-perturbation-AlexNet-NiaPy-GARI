@@ -10,17 +10,30 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 #### 3 versions
 Code is in early stage, some paths etc. are still hardcoded. Images used for CNN are on my GoogleDrive, therefore there can be a problem accessing them. Because of that, there are currently 3 versions of Jupyter Notebook:
 * "NiaPyDiplomskaLocal.ipynb" that uses 2 pictures and NiaPy locally - specified in [requirements.txt](requirements.txt)
-* "AlexNetDiplomskaColab.ipynb" that requires Colab, my gDrive etc.
+* "AlexNetDiplomskaColab.ipynb" that requires Colab, my gDrive etc. - *Full version!*
 * "NiaPyDiplomska.ipynb" that uses 1 picture (tiger.jpg), NiaPy and CNN prediction in Google Colab. *Important! Download files!*
 
 ### Current plan
-* a) Evaluate the difference between original and recreated picture - something similiar to RMSE - average difference in pixel - bigger differences (errors) get bigger punishment
-* ?) Should NiaPy change whole or only targeted parts of the picture - used in CNN prediction? 
-![CNN Layers - Visualization of the activation maps](https://miro.medium.com/max/785/1*mzmytBNCTO3CEKtpCVxIRA.png)
+* How to do the same thing with NiaPy?
+
+### Milestones
+* Added **PyGan** to create a **Proof Of Concept**, proving that the idea and BenchMark works
+* **Succesfully recreated** a few images, we can nicely see totally different pixels and almost **100% wrong prediction of AlexNet**
+* **Added Metrics** to compare and evaluate images after recreation
 
 
-![Tiger](./Images/tiger.jpg?raw=true) 
+![Baseball](./Images/bejzbol80-80.JPEG?raw=true) ![Strawberry](./Images/strawberries100-53.jpg?raw=true) ![Strawberry](./Images/nautlius80-60.JPEG?raw=true) 
 
 ## Looks promising
-Original: ![Baseball](./Images/bejzbol.JPEG?raw=true)
-After NiaPy: ![BaseballMissed](./Images/zanimivost.jpg?raw=true) 
+First No. represents border, at which to include AlexNet into BenchMark, forcing algorithm to create a picture not only similiar to the original, but also to the point **AlexNet completely fails** its prediction
+* Recreated Baseball at 20k-32,5k: 
+
+![BaseballRecreated](./Pygad%20Recreated/20000-32500Baseball-Bib.jpg?raw=true) 
+
+* Recreated Strawberry at 20k-20,5k: 
+
+![RecreatedStrawberry](./Pygad%20Recreated/20000-20500Strawberry-Mitten.png?raw=true) 
+
+* Recreated Nautilus with updated BenchMark at 30k-30,5k: 
+
+![RecreatedNautilus](./Pygad%20Recreated/30000-30500Nautilus-BrainCoral.png?raw=true) 
