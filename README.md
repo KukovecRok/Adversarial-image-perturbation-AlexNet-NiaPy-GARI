@@ -34,6 +34,6 @@ First No. represents border, at which to include AlexNet into BenchMark, forcing
 
 ![RecreatedStrawberry](./Pygad%20Recreated/20000-20500Strawberry-Mitten.png?raw=true) 
 
-* Recreated Nautilus with updated BenchMark at 30k-30,5k: 
+* Recreated Nautilus with updated BenchMark at 30k-30150: 
 
 ![RecreatedNautilus](./Pygad%20Recreated/30000-30500Nautilus-BrainCoral.png?raw=true) 
