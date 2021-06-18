@@ -20,7 +20,7 @@ Code is in early stage, some paths etc. are still hardcoded. Images used for CNN
 * How to do the same thing with NiaPy?
 
 ### Milestones
-* Added **PyGan** to create a **Proof Of Concept**, proving that the idea and BenchMark works
+* Added **PyGad & Gari** to create a **Proof Of Concept**, proving that the idea and BenchMark works
 * **Succesfully recreated** a few images. We can nicely see which pixels have been tampered with, to achieve almost **100% wrong prediction of AlexNet**
 * **Added Metrics** to compare and evaluate images after recreation
 
