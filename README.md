@@ -10,7 +10,7 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 * Pip
 * NiaPy 2.0.0rc12
 
-#### 3 versions
+#### 2 versions
 Code is in early stage, some paths etc. are still hardcoded. Images used for CNN are on my GoogleDrive, therefore there can be a problem accessing them. Because of that, there are currently 3 versions of Jupyter Notebook:
 * "AlexNetDiplomskaColab.ipynb" that requires Colab, my gDrive etc. - *Full version!*
 * "NiaPyDiplomska.ipynb" that uses 1 picture (tiger.jpg), NiaPy and CNN prediction in Google Colab. *Important! Download files!*
