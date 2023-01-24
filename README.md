@@ -4,6 +4,21 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 ## Learning phase
 **The algorithm recreates the whole original picture from scratch considering only the BenchMark function.** No compression or simplification of the image were used. I believe, this approach will lead us into the direction, where we can apply the procedure on **any image** of any size, that AlexNet recognizes in the first place. The future goal is to work on the AlexNet's native 224*224 resolution.
 
+## Dataset
+
+Thanks to [ImageNet Large Scale Visual Recognition Challenge](https://arxiv.org/abs/1409.0575)
+
+@article{ILSVRC15,
+Author = {Olga Russakovsky and Jia Deng and Hao Su and Jonathan Krause and Sanjeev Satheesh and Sean Ma and Zhiheng Huang and Andrej Karpathy and Aditya Khosla and Michael Bernstein and Alexander C. Berg and Li Fei-Fei},
+Title = {{ImageNet Large Scale Visual Recognition Challenge}},
+Year = {2015},
+journal   = {International Journal of Computer Vision (IJCV)},
+doi = {10.1007/s11263-015-0816-y},
+volume={115},
+number={3},
+pages={211-252}
+}
+
 ## Requirements
 * Python 3.6+
 * Jupyter Notebook environment
