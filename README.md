@@ -1,5 +1,10 @@
-# Making AlexNet CNN inaccurate using NiaPy's evolutionary algorithms
+# Adversarial image perturbation with a genetic algorithms
+
 Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correctly classified image(s) using NiaPy's evolutionary algorithms, trying to recreate it as similiar to original as possible, but only to the point, that AlexNet fails its prediction.
+
+### Evolution progress
+
+![Baseball1](./Images/EvolutionProgress/1.png) ![Baseball1](./Images/EvolutionProgress/1000.png) ![Baseball1](./Images/EvolutionProgress/5000.png) ![Baseball1](./Images/EvolutionProgress/10000.png) ![Baseball1](./Images/EvolutionProgress/25000.png) ![Baseball1](./Images/EvolutionProgress/50000.png) ![Baseball1](./Images/EvolutionProgress/100000.png)
 
 ## Learning phase
 **The algorithm recreates the whole original picture from scratch considering only the BenchMark function.** No compression or simplification of the image were used. I believe, this approach will lead us into the direction, where we can apply the procedure on **any image** of any size, that AlexNet recognizes in the first place. The future goal is to work on the AlexNet's native 224*224 resolution.
@@ -8,6 +13,7 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 
 Thanks to [ImageNet Large Scale Visual Recognition Challenge](https://arxiv.org/abs/1409.0575)
 
+```
 @article{ILSVRC15,
 Author = {Olga Russakovsky and Jia Deng and Hao Su and Jonathan Krause and Sanjeev Satheesh and Sean Ma and Zhiheng Huang and Andrej Karpathy and Aditya Khosla and Michael Bernstein and Alexander C. Berg and Li Fei-Fei},
 Title = {{ImageNet Large Scale Visual Recognition Challenge}},
@@ -19,6 +25,8 @@ number={3},
 pages={211-252}
 }
 
+```
+
 ## Requirements
 * Python 3.6+
 * Jupyter Notebook environment
@@ -27,12 +35,10 @@ pages={211-252}
 * [GARI](https://github.com/ahmedfgad/GARI) - Genetic Algorithm for Reproducing Images
 
 #### 2 versions
+
 Code is in early stage, some paths etc. are still hardcoded. Images used for CNN are on my GoogleDrive, therefore there can be a problem accessing them. Because of that, there are currently 3 versions of Jupyter Notebook:
 * "AlexNetDiplomskaColab.ipynb" that requires Colab, my gDrive etc. - *Full version!*
 * "NiaPyDiplomska.ipynb" that uses 1 picture (tiger.jpg), NiaPy and CNN prediction in Google Colab. *Important! Download files!*
-
-### Current plan
-* How to do the same thing with NiaPy?
 
 ### Milestones
 * Added **PyGad & Gari** to create a **Proof Of Concept**, proving that the idea and BenchMark works
@@ -54,7 +60,3 @@ First No. represents the border, at which we, if AlexNet recognizes the actual m
 * Recreated Nautilus with updated/fixed BenchMark at 50k-52,5k: 
 
 ![RecreatedNautilus](./Pygad%20Recreated/50000-52500Nautilus-BrainCoral.jpg?raw=true) 
-
-* Recreated Strawberry at 20k-20,5k: 
-
-![RecreatedStrawberry](./Pygad%20Recreated/20000-20500Strawberry-Mitten.png?raw=true) 
