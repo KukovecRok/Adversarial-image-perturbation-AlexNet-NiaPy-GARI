@@ -11,8 +11,11 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 
 ## Dataset
 
-Thanks to [ImageNet Large Scale Visual Recognition Challenge](https://arxiv.org/abs/1409.0575)
+Link to the dataset: [ImageNet](http://www.image-net.org/challenges/LSVRC/2010/index)
 
+Thanks to [Article: ImageNet Large Scale Visual Recognition Challenge](https://arxiv.org/abs/1409.0575)
+
+How to cite:
 ```
 @article{ILSVRC15,
 Author = {Olga Russakovsky and Jia Deng and Hao Su and Jonathan Krause and Sanjeev Satheesh and Sean Ma and Zhiheng Huang and Andrej Karpathy and Aditya Khosla and Michael Bernstein and Alexander C. Berg and Li Fei-Fei},
@@ -64,5 +67,5 @@ First No. represents the border, at which we, if AlexNet recognizes the actual m
 
 ## License
 
-Copyright © 2021 [Tatookie](https://github.com/KukovecRok). <br /> 
+Copyright © 2021 [KukovecRok](https://github.com/KukovecRok). <br /> 
 This project is MIT licensed.
