@@ -1,4 +1,4 @@
-# Adversarial image perturbation with a genetic algorithms
+# Adversarial image perturbation with evolutionary algorithms 
 
 Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correctly classified image(s) using NiaPy's evolutionary algorithms, trying to recreate it as similiar to original as possible, but only to the point, that AlexNet fails its prediction.
 
