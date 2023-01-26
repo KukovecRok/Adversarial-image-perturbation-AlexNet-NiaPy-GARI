@@ -66,8 +66,3 @@ First No. represents the border, at which we, if AlexNet recognizes the actual m
 
 Copyright © 2021 [Tatookie](https://github.com/KukovecRok). <br /> 
 This project is MIT licensed.
-
-## Disclaimer
-
-This framework is provided as-is, and there are no guarantees that it fits your purposes or that it is bug-free. Use it at your own risk!
-
