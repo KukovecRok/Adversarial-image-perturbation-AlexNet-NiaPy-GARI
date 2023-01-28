@@ -6,6 +6,16 @@ Predicting images from  ILSVRC dataset using AlexNet. Then recreating the correc
 
 ![Baseball1](./Images/EvolutionProgress/baseball1.png) ![Baseball1](./Images/EvolutionProgress/baseball1000.png) ![Baseball1](./Images/EvolutionProgress/baseball2500.png) ![Baseball1](./Images/EvolutionProgress/baseball5000.png) ![Baseball1](./Images/EvolutionProgress/baseball10000.png) ![Baseball1](./Images/EvolutionProgress/baseball25000.png) ![Baseball1](./Images/EvolutionProgress/baseball50000.png) ![Baseball1](./Images/EvolutionProgress/baseball70000.png) ![Baseball1](./Images/EvolutionProgress/baseball100000.png)
 
+### This is an experiment of a thesis
+```
+@phdthesis{Kukovec_2021, place={Maribor}, 
+title={Adversarna motnja razpoznave slik nevronske mreže s pomočjo evolucijskega algoritma : diplomsko delo}, 
+url={https://dk.um.si/IzpisGradiva.php?lang=eng&id=79575}, 
+school={University of Maribor}, 
+author={Kukovec, Rok}, 
+year={2021}}
+```
+
 ## Learning phase
 **The algorithm recreates the whole original picture from scratch considering only the BenchMark function.** No compression or simplification of the image were used. I believe, this approach will lead us into the direction, where we can apply the procedure on **any image** of any size, that AlexNet recognizes in the first place. The future goal is to work on the AlexNet's native 224*224 resolution.
 
