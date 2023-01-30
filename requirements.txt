@@ -1,5 +1,5 @@
 matplotlib==3.6.3
-NiaPy==2.0.0rc12
+NiaPy==2.0.4
 numpy==1.23.5
 pandas===1.5.3
 jupyter==1.0.0
