@@ -8,5 +8,5 @@ pygad==2.18.1
 Pillow==10.2.0
 scipy==1.10.0
 scikit-image==0.19.3
-torch==1.13.1
+torch==2.8.0
 torchvision==0.14.1
